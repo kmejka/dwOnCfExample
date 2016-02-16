@@ -1,0 +1,8 @@
+appName: Example application
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: ${env.PORT}
